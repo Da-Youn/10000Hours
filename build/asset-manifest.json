@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Da-Youn/10000Hours/static/css/main.d0b18b06.css",
+    "main.js": "/Da-Youn/10000Hours/static/js/main.503ed422.js",
+    "static/media/licat.png": "/Da-Youn/10000Hours/static/media/licat.b32a67e86adbbc7d33a8.png",
+    "static/media/title.png": "/Da-Youn/10000Hours/static/media/title.65ff732e334118c5b073.png",
+    "static/media/clock.png": "/Da-Youn/10000Hours/static/media/clock.aa3294909edfbab96c13.png",
+    "static/media/loading.png": "/Da-Youn/10000Hours/static/media/loading.eeeec083fcea1b71720c.png",
+    "index.html": "/Da-Youn/10000Hours/index.html",
+    "main.d0b18b06.css.map": "/Da-Youn/10000Hours/static/css/main.d0b18b06.css.map",
+    "main.503ed422.js.map": "/Da-Youn/10000Hours/static/js/main.503ed422.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b18b06.css",
+    "static/js/main.503ed422.js"
+  ]
+}

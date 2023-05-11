@@ -1,0 +1,16 @@
+.copyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.weniv-logo {
+  display: block;
+  margin-bottom: 20px;
+}
+.copyright-text {
+  font-family: 'Noto Sans KR';
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 27px;
+  text-align: center;
+  font-size: 12px;
+}

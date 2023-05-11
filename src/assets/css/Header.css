@@ -1,0 +1,10 @@
+.title {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background: url(../img/clock.png) no-repeat center;
+  margin-bottom: 66px;
+}
+.title-img {
+  max-width: 564px;
+}

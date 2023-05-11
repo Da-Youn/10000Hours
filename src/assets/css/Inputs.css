@@ -1,0 +1,70 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.field,
+.time {
+  display: flex;
+  align-items: center;
+  font-family: 'GmarketSansMedium';
+  color: #fff;
+  font-size: 24px;
+}
+.field {
+  margin-bottom: 27px;
+}
+.time {
+  margin-bottom: 115px;
+}
+
+.inputs input {
+  margin: 0 17px;
+  box-sizing: border-box;
+  padding: 0 5px 0 20px;
+  padding-top: 3px;
+  width: 228px;
+  height: 57px;
+  border-radius: 7px;
+  font-size: 24px;
+  border: none;
+
+  font-family: 'GmarketSansMedium';
+}
+
+input::placeholder {
+  color: #babcbe;
+  text-align: center;
+}
+
+.start {
+  margin-bottom: 80px;
+}
+
+.start-btn {
+  width: 565px;
+  height: 66px;
+  background: #fcee21;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  border: 0;
+  border-radius: 56px;
+  font-size: 24px;
+  font-family: 'GmarketSansBold';
+  color: #5b2386;
+  position: relative;
+}
+.start-btn::after {
+  content: '';
+  position: absolute;
+  background: url(../img/click.png);
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  right: -70px;
+}

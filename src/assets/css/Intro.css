@@ -1,0 +1,39 @@
+.intro-quote {
+  font-family: 'OTEnjoystoriesBA';
+  font-size: 36px;
+  text-align: center;
+  color: #f5df4d;
+  margin-bottom: 78px;
+}
+.intro-explain {
+  font-family: 'GmarketSansMedium';
+  font-size: 18px;
+  text-align: center;
+  line-height: 32px;
+  position: relative;
+  color: #ffffff;
+  margin-bottom: 102px;
+}
+.intro-explain strong {
+  font-family: 'GmarketSansBold';
+  font-size: 24px;
+}
+
+.intro-explain::before {
+  content: '“';
+  font-size: 96px;
+  font-family: 'GmarketSansBold';
+  color: rgba(252, 238, 33, 0.3);
+  position: absolute;
+  left: 0;
+  top: 55%;
+}
+.intro-explain::after {
+  content: '”';
+  font-size: 96px;
+  font-family: 'GmarketSansBold';
+  color: rgba(252, 238, 33, 0.3);
+  position: absolute;
+  right: 0;
+  top: 55%;
+}

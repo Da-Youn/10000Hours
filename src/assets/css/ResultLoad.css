@@ -1,0 +1,15 @@
+.result-load {
+  margin-bottom: 80px;
+}
+.load-img {
+  width: 150px;
+  animation: rotate_image 3s linear infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: rotate_image 3s linear infinite;
+}
+
+@keyframes rotate_image {
+  100% {
+    transform: rotate(360deg);
+  }
+}
