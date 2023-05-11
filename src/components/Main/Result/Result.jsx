@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Modal from '../Modal/Modal';
-import '../../assets/css/Result.css';
+import './Result.css';
 
 function Result({ field, time }) {
   const [modalOpen, setModalOpen] = useState(false);

@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../assets/css/Modal.css';
-import Licat from '../../assets/img/licat.png';
+import './Modal.css';
+import Licat from '../../../images/licat.png';
 
 function Modal({ onClose }) {
   const handleClose = () => {

@@ -1,4 +1,7 @@
 @media (max-width: 800px) {
+  .container {
+    padding-top: 70px;
+  }
   /** Header.css */
   .title {
     height: 126px;

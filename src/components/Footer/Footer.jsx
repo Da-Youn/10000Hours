@@ -1,6 +1,7 @@
 import React from 'react';
-import WenivLogo from '../../assets/img/logo.png';
-import '../../assets/css/Footer.css';
+import WenivLogo from '../../images/logo.png';
+import './Footer.css';
+
 function Footer() {
   return (
     <div className="copyright">

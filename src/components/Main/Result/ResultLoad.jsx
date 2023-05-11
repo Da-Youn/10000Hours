@@ -1,6 +1,6 @@
 import React from 'react';
-import loadImg from '../../assets/img/loading.png';
-import '../../assets/css/ResultLoad.css';
+import loadImg from '../../../images/loading.png';
+import './Result.css';
 
 function ResultLoad() {
   return (

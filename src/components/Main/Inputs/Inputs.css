@@ -28,7 +28,7 @@
   margin: 0 17px;
   box-sizing: border-box;
   padding: 0 5px 0 20px;
-  padding-top: 3px;
+
   width: 228px;
   height: 57px;
   border-radius: 7px;
@@ -41,6 +41,8 @@
 input::placeholder {
   color: #babcbe;
   text-align: center;
+
+  padding-right: 20px;
 }
 
 .start {
@@ -62,7 +64,7 @@ input::placeholder {
 .start-btn::after {
   content: '';
   position: absolute;
-  background: url(../img/click.png);
+  background: url(../../../images/click.png);
   background-size: contain;
   width: 60px;
   height: 60px;

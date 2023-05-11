@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../assets/css/Inputs.css';
+import './Inputs.css';
 
 function Inputs({ setField, setTime, setLoading }) {
   function handleSubmit(event) {
@@ -32,6 +32,7 @@ function Inputs({ setField, setTime, setLoading }) {
   return (
     <form className="inputs" onSubmit={handleSubmit}>
       <div className="field">
+        <h3 className="a11y">분야 입력 하기</h3>
         <div className="text-wrapper ">
           <p>나는</p>
           <input id="field_text" type="text" placeholder="예) 프로그래밍" />
@@ -39,6 +40,7 @@ function Inputs({ setField, setTime, setLoading }) {
         </div>
       </div>
       <div className="time">
+        <h3 className="a11y">시간 입력 하기</h3>
         <p>그래서 앞으로 매일 하루에</p>
         <div className="text-wrapper">
           <input id="time_text" type="number" placeholder="예) 5시간" min="0" max="24" />
@@ -46,6 +48,7 @@ function Inputs({ setField, setTime, setLoading }) {
         </div>
       </div>
       <div className="start">
+        <h3 className="a11y">결과 확인 하기</h3>
         <button type="submit" className="start-btn" onClick={handleClick}>
           나는 며칠 동안 훈련을 해야 1만 시간이 될까?
         </button>
